@@ -11,7 +11,8 @@
     "test": "vitest run tests --exclude tests/integration/**",
     "test:integration": "vitest run tests/integration",
     "test:coverage": "vitest run tests --exclude tests/integration/** --coverage",
-    "migrate": "node src/migrate.js"
+    "migrate": "node src/migrate.js",
+    "lint": "find src -name '*.js' -exec node --check {} \\;"
   },
   "dependencies": {
     "express": "^5.1.0",
