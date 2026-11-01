@@ -135,3 +135,5 @@ Test manuel avec `curl` : requête valide `201`, requête invalide `400 VALIDATI
 | Injection SQL | Neutralisée (requêtes paramétrées) | Neutralisée et testée automatiquement |
 
 Le défi (workflow GitHub Actions et route `GET /api/contact` paginée) n'a pas été réalisé.
+
+Rate limit configurable via variables d'environnement.
